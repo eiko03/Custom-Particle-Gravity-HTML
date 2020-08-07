@@ -1,0 +1,29 @@
+:root {
+  --height: 20rem;  
+}
+#effect {
+	height: var(--height);
+}
+#canvas1 {
+	position: absolute;
+	width: 100%;
+	height: var(--height);
+  top: 0;
+  left: 0;
+	z-index: -4;
+  filter:url(#goo);
+  opacity: 1;
+}
+#canvas2 {
+	position: absolute;
+	width: 100%;
+	height: var(--height);
+  top: 0;
+  left: 0;
+	z-index: -5;
+  opacity: 1;
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+margin-top: 50px;}
